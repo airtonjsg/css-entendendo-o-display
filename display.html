@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display CSS</title>
+
+    <style>
+        .d-inline{
+            display: inline;
+            background-color: cyan;
+            height: 10rem;  /* NÃO FUNCIONA */
+            width: 10rem;   /* NÃO FUNCIONA */
+        }
+
+        .d-block{
+            display: block;
+            background-color: cyan;
+            margin-bottom: 1rem;
+            height: 10rem;  /* TESTE TIRANDO E COLOCANDO ESTE ATRIBUTO */ 
+            width: 10rem;   /* TESTE TIRANDO E COLOCANDO ESTE ATRIBUTO */
+        }
+
+        .d-inline-block{
+            display: inline-block;
+            background-color: cyan;
+            margin-bottom: 1rem;
+            height: 10rem;  /* TESTE TIRANDO E COLOCANDO ESTE ATRIBUTO */ 
+            width: 10rem;   /* TESTE TIRANDO E COLOCANDO ESTE ATRIBUTO */
+        }
+
+        .d-none{
+            display: none;
+            background-color: cyan;
+            margin-bottom: 1rem;
+            height: 10rem;  /* TESTE TIRANDO E COLOCANDO ESTE ATRIBUTO */ 
+            width: 10rem;   /* TESTE TIRANDO E COLOCANDO ESTE ATRIBUTO */
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1> Display InLINE</h1>
+
+        <div class="d-inline">display 1</div>
+        <div class="d-inline">display 2</div>
+        <div class="d-inline">display 3</div>
+
+        <hr />
+
+        <h1> Display BLOCK</h1>
+
+        <div class="d-block">display 1</div>
+        <div class="d-block">display 2</div>
+        <div class="d-block">display 3</div>
+        
+        <hr />
+
+        <h1> Display InLINE-BLOCK</h1>
+
+        <div class="d-inline-block">display 1</div>
+        <div class="d-inline-block">display 2</div>
+        <div class="d-inline-block">display 3</div>
+        
+        <hr />
+
+        <h1> Display NONE</h1>
+
+        <div class="d-none">display 1</div>
+        <div class="d-none">display 2</div>
+        <div class="d-none">display 3</div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
